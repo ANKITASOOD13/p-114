@@ -1,0 +1,14 @@
+h2{
+ font-size: 25px;}
+ .btn-sucess:hover{
+    background-color: rgb(232, 119, 200);
+ }
+ canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes example{
+    from {box-shadow: 1px 1px 35px chartreuse;}
+    to {box-shadow: 1px 1px 35px rgb(0, 255, 251);}
+ }
